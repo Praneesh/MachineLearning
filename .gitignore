@@ -1,6 +1,9 @@
 #Software Directory
 
-/Stanford-ML/Software/
+/Stanford-ML/Software
 
 #Zip Directories
 /Stanford-ML/Assignments/*.zip
+
+#Learning Directories
+/Stanford-ML/Learning
