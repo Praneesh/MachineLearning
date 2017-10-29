@@ -28,4 +28,6 @@ for row=1:m,
   endif
 end
 % =========================================================================
+% Or the entire code can be simply writen with vector form asctime
+% p = sigmoid(X * theta) >= 0.5;
 end
