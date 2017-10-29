@@ -15,13 +15,17 @@ p = zeros(m, 1);
 %               You should set p to a vector of 0's and 1's
 %
 
-
-
-
-
-
-
+for row=1:m,
+  x = X(row,:);
+  z = theta' * x' ;
+  sigmoidForData = sigmoid(z);
+  if(sigmoidForData >= 0.5)
+     % If sigmoid greater than 0.5
+     p(row) = 1;
+  else
+      % If sigmoid less than 0.5
+     p(row) = 0;
+  endif
+end
 % =========================================================================
-
-
 end
