@@ -7,3 +7,9 @@
 
 #Learning Directories
 /Stanford-ML/Learning
+
+# Ignore token files
+/Stanford-ML/Assignments/**/token.mat
+
+# Ignore workspace files
+/Stanford-ML/Assignments/**/octave-workspace
