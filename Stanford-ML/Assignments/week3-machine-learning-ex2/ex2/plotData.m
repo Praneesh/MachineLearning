@@ -12,12 +12,14 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
+% Find indices of accepted student's marks
+accepts = find(y==1);
 
+% Find indices of accepted student's marks
+rejects = find(y==0);
 
-
-
-
-
+plot(X(accepts,1), X(accepts,2), 'k+', 'LineWidth', 2, 'MarkerSize', 7);
+plot(X(rejects,1), X(rejects,2), 'ko', 'MarkerFaceColor', 'yellow', 'MarkerSize', 7);
 
 
 % =========================================================================
